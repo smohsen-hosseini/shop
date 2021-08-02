@@ -1,0 +1,42 @@
+mysql 8.0 command line client
+-------------------------------------------
+mysql> mysql -u user -p  //login command
+
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| shopping           |
+| sys                |
++--------------------+
+
+mysql> use shopping;
+Database changed
+mysql> show tables;
++--------------------+
+| Tables_in_shopping |
++--------------------+
+| category           |
+| comment            |
+| hibernate_sequence |
+| product            |
+| user               |
++--------------------+
+
+-------------------------------------
+DROP TABLE IF EXISTS comment;
+DROP TABLE IF EXISTS user;
+DROP TABLE IF EXISTS product;
+DROP TABLE IF EXISTS category;
+show tables;
+
+-------------------------------------
+
+mysql> select * from user;
+mysql> select * from product;
+mysql> select * from comment;
+
+

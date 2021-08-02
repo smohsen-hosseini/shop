@@ -1,0 +1,1070 @@
+02-08-2021 00:12:54.890 [restartedMain] INFO  com.shopping.Application.logStarting - Starting Application using Java 11.0.1 on SM-HOSSEINI-10 with PID 908 (D:\Projects\Shopping\developmentWithThymeleaf\target\classes started by sm_hosseini in D:\Projects\Shopping\developmentWithThymeleaf)
+02-08-2021 00:12:54.895 [restartedMain] INFO  com.shopping.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-08-2021 00:12:54.948 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-08-2021 00:12:54.953 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-08-2021 00:12:55.884 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-08-2021 00:12:55.976 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 83 ms. Found 4 JPA repository interfaces.
+02-08-2021 00:12:56.658 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-08-2021 00:12:56.665 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:12:56.666 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-08-2021 00:12:56.666 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02-08-2021 00:12:56.756 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-08-2021 00:12:56.757 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1800 ms
+02-08-2021 00:12:56.991 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-08-2021 00:12:57.032 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+02-08-2021 00:12:57.144 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-08-2021 00:12:57.244 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+02-08-2021 00:12:57.522 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+02-08-2021 00:12:57.540 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-08-2021 00:13:11.529 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-08-2021 00:13:11.539 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:13:11.591 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+02-08-2021 00:13:11.982 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-08-2021 00:13:12.401 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/webjars/**'] with []
+02-08-2021 00:13:12.401 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/js/**'] with []
+02-08-2021 00:13:12.401 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/error/**'] with []
+02-08-2021 00:13:12.401 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/css/**'] with []
+02-08-2021 00:13:12.402 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/fonts/**'] with []
+02-08-2021 00:13:12.402 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/libs/**'] with []
+02-08-2021 00:13:12.402 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/img/**'] with []
+02-08-2021 00:13:12.402 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/h2-console/**'] with []
+02-08-2021 00:13:12.491 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78248ec4, org.springframework.security.web.context.SecurityContextPersistenceFilter@765bec60, org.springframework.security.web.header.HeaderWriterFilter@25f99b6c, org.springframework.security.web.authentication.logout.LogoutFilter@2ed828f6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2822416e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29c48c33, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24887d01, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ff495f5, org.springframework.security.web.session.SessionManagementFilter@7216e0e7, org.springframework.security.web.access.ExceptionTranslationFilter@37ffdd5c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46cbd077]
+02-08-2021 00:13:12.758 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:13:13.258 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:13:13.282 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-08-2021 00:13:13.295 [restartedMain] INFO  com.shopping.Application.logStarted - Started Application in 18.799 seconds (JVM running for 19.714)
+02-08-2021 00:13:14.597 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-08-2021 00:13:14.598 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+02-08-2021 00:13:14.600 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+02-08-2021 00:13:14.720 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@799420750 wrapping com.mysql.cj.jdbc.ConnectionImpl@6b2405f6] read-only
+02-08-2021 00:13:14.727 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@799420750 wrapping com.mysql.cj.jdbc.ConnectionImpl@6b2405f6]
+02-08-2021 00:13:14.728 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@799420750 wrapping com.mysql.cj.jdbc.ConnectionImpl@6b2405f6] read-only
+02-08-2021 00:13:14.738 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@799420750 wrapping com.mysql.cj.jdbc.ConnectionImpl@6b2405f6]
+02-08-2021 00:13:36.301 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@465367945 wrapping com.mysql.cj.jdbc.ConnectionImpl@4a36fb70] read-only
+02-08-2021 00:13:36.309 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@465367945 wrapping com.mysql.cj.jdbc.ConnectionImpl@4a36fb70]
+02-08-2021 00:13:36.480 [http-nio-8080-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1605048016 wrapping com.mysql.cj.jdbc.ConnectionImpl@4a36fb70] read-only
+02-08-2021 00:13:36.484 [http-nio-8080-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1605048016 wrapping com.mysql.cj.jdbc.ConnectionImpl@4a36fb70]
+02-08-2021 00:13:36.485 [http-nio-8080-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1605048016 wrapping com.mysql.cj.jdbc.ConnectionImpl@4a36fb70] read-only
+02-08-2021 00:13:36.488 [http-nio-8080-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1605048016 wrapping com.mysql.cj.jdbc.ConnectionImpl@4a36fb70]
+02-08-2021 00:13:53.620 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@977974758 wrapping com.mysql.cj.jdbc.ConnectionImpl@4a36fb70] read-only
+02-08-2021 00:13:53.623 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@977974758 wrapping com.mysql.cj.jdbc.ConnectionImpl@4a36fb70]
+02-08-2021 00:15:07.749 [restartedMain] INFO  com.shopping.Application.logStarting - Starting Application using Java 11.0.1 on SM-HOSSEINI-10 with PID 18216 (D:\Projects\Shopping\developmentWithThymeleaf\target\classes started by sm_hosseini in D:\Projects\Shopping\developmentWithThymeleaf)
+02-08-2021 00:15:07.753 [restartedMain] INFO  com.shopping.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-08-2021 00:15:07.817 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-08-2021 00:15:07.818 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-08-2021 00:15:08.494 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-08-2021 00:15:08.552 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+02-08-2021 00:15:09.192 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-08-2021 00:15:09.199 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:15:09.200 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-08-2021 00:15:09.200 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02-08-2021 00:15:09.286 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-08-2021 00:15:09.286 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1467 ms
+02-08-2021 00:15:09.517 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-08-2021 00:15:09.556 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+02-08-2021 00:15:09.655 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-08-2021 00:15:09.737 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+02-08-2021 00:15:09.974 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+02-08-2021 00:15:09.985 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-08-2021 00:15:18.289 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-08-2021 00:15:18.297 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:15:18.352 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+02-08-2021 00:15:18.756 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-08-2021 00:15:19.114 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/webjars/**'] with []
+02-08-2021 00:15:19.114 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/js/**'] with []
+02-08-2021 00:15:19.115 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/error/**'] with []
+02-08-2021 00:15:19.115 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/css/**'] with []
+02-08-2021 00:15:19.115 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/fonts/**'] with []
+02-08-2021 00:15:19.115 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/libs/**'] with []
+02-08-2021 00:15:19.115 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/img/**'] with []
+02-08-2021 00:15:19.116 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/h2-console/**'] with []
+02-08-2021 00:15:19.199 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@778c51f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@8f350a6, org.springframework.security.web.header.HeaderWriterFilter@34574d75, org.springframework.security.web.authentication.logout.LogoutFilter@6b2e2bee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7681f50f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55085649, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56d5642c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45654390, org.springframework.security.web.session.SessionManagementFilter@5f503b5a, org.springframework.security.web.access.ExceptionTranslationFilter@d754722, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64c65057]
+02-08-2021 00:15:19.444 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:15:19.988 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:15:20.006 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-08-2021 00:15:20.017 [restartedMain] INFO  com.shopping.Application.logStarted - Started Application in 12.789 seconds (JVM running for 13.852)
+02-08-2021 00:15:31.008 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-08-2021 00:15:31.008 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+02-08-2021 00:15:31.011 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+02-08-2021 00:15:31.058 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@2107504783 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:15:31.065 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@2107504783 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:15:33.013 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1390147246 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:15:33.016 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1390147246 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:15:37.972 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@692289291 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:15:37.981 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@692289291 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:15:38.154 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1428798297 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:15:38.159 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1428798297 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:15:38.160 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1428798297 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:15:38.164 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1428798297 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:15:58.776 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@958233006 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:15:58.778 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@958233006 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:16:06.807 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1691240299 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:16:06.811 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1691240299 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:16:08.822 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@2140490815 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:16:08.825 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@2140490815 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:16:10.208 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@150282916 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:16:10.212 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@150282916 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:16:27.788 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1735172158 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:16:27.792 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1735172158 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:16:30.423 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@563178669 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:16:30.431 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@563178669 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:16:36.270 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1396155125 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:16:36.272 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1396155125 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:16:39.289 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1975609505 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:16:39.292 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1975609505 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:16:42.611 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@227664675 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:16:42.614 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@227664675 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:17:15.534 [http-nio-8080-exec-8] ERROR c.s.controller.RegisterController.registration - Field error in object 'userForm' on field 'passwordConfirm': rejected value [wew]; codes [register.error.diff_password.userForm.passwordConfirm,register.error.diff_password.passwordConfirm,register.error.diff_password.java.lang.String,register.error.diff_password]; arguments []; default message [null]
+02-08-2021 00:17:15.543 [http-nio-8080-exec-8] ERROR org.thymeleaf.TemplateEngine.process - [THYMELEAF][http-nio-8080-exec-8] Exception processing template "register": An error happened during template parsing (template: "class path resource [templates/register.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/register.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.attoparser.ParseException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringOptionFieldTagProcessor' (template: "register" - line 23, col 33)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 86 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringOptionFieldTagProcessor' (template: "register" - line 23, col 33)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 88 common frames omitted
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@javax.validation.constraints.NotEmpty @javax.validation.constraints.NotNull java.lang.Boolean] for value 'Select'; nested exception is java.lang.IllegalArgumentException: Invalid boolean value 'Select'
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:192)
+	at org.springframework.core.convert.support.ConvertingPropertyEditorAdapter.setAsText(ConvertingPropertyEditorAdapter.java:60)
+	at org.thymeleaf.spring5.util.SpringSelectedValueComparator.exhaustiveCompare(SpringSelectedValueComparator.java:173)
+	at org.thymeleaf.spring5.util.SpringSelectedValueComparator.isSelected(SpringSelectedValueComparator.java:90)
+	at org.thymeleaf.spring5.processor.SpringOptionFieldTagProcessor.doProcess(SpringOptionFieldTagProcessor.java:68)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:187)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 101 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'Select'
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:66)
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:32)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:386)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 108 common frames omitted
+02-08-2021 00:17:15.546 [http-nio-8080-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/register.html]")] with root cause
+java.lang.IllegalArgumentException: Invalid boolean value 'Select'
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:66)
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:32)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:386)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:192)
+	at org.springframework.core.convert.support.ConvertingPropertyEditorAdapter.setAsText(ConvertingPropertyEditorAdapter.java:60)
+	at org.thymeleaf.spring5.util.SpringSelectedValueComparator.exhaustiveCompare(SpringSelectedValueComparator.java:173)
+	at org.thymeleaf.spring5.util.SpringSelectedValueComparator.isSelected(SpringSelectedValueComparator.java:90)
+	at org.thymeleaf.spring5.processor.SpringOptionFieldTagProcessor.doProcess(SpringOptionFieldTagProcessor.java:68)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:187)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+02-08-2021 00:18:01.474 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@367968784 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:01.478 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@367968784 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:18:01.479 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@367968784 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:01.481 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@367968784 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:18:01.596 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1867212967 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:01.599 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1867212967 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:18:01.600 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1867212967 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:01.602 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1867212967 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:18:21.381 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@899251635 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:21.384 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@899251635 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:18:49.328 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1975982448 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:49.331 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1975982448 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:18:49.438 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1344806028 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:49.441 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1344806028 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:18:49.442 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1344806028 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:49.445 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1344806028 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:18:51.751 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@927858723 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:51.755 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@927858723 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:18:59.922 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1063690970 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:18:59.925 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1063690970 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:03.526 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@994209496 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:03.528 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@994209496 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:03.572 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1616469749 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:03.576 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1616469749 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:09.478 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@266837360 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:09.481 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@266837360 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:25.213 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1363354922 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:25.217 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1363354922 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:25.325 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1738918308 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:25.328 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1738918308 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:25.329 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1738918308 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:25.331 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1738918308 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:50.346 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@2028660447 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:50.349 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@2028660447 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:50.456 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1619837436 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:50.460 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1619837436 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:50.461 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1619837436 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:50.464 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1619837436 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:53.447 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1942698576 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:53.450 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1942698576 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:19:58.748 [http-nio-8080-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@743182315 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905] read-only
+02-08-2021 00:19:58.752 [http-nio-8080-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@743182315 wrapping com.mysql.cj.jdbc.ConnectionImpl@784e0905]
+02-08-2021 00:24:26.717 [restartedMain] INFO  com.shopping.Application.logStarting - Starting Application using Java 11.0.1 on SM-HOSSEINI-10 with PID 11536 (D:\Projects\Shopping\developmentWithThymeleaf\target\classes started by sm_hosseini in D:\Projects\Shopping\developmentWithThymeleaf)
+02-08-2021 00:24:26.720 [restartedMain] INFO  com.shopping.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-08-2021 00:24:26.766 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-08-2021 00:24:26.766 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-08-2021 00:24:27.537 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-08-2021 00:24:27.609 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+02-08-2021 00:24:28.425 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-08-2021 00:24:28.433 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:24:28.434 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-08-2021 00:24:28.434 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02-08-2021 00:24:28.544 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-08-2021 00:24:28.545 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1777 ms
+02-08-2021 00:24:28.879 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-08-2021 00:24:28.928 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+02-08-2021 00:24:29.047 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-08-2021 00:24:29.144 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+02-08-2021 00:24:29.459 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+02-08-2021 00:24:29.473 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-08-2021 00:24:30.303 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-08-2021 00:24:30.314 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:24:30.384 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+02-08-2021 00:24:30.862 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-08-2021 00:24:31.327 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/webjars/**'] with []
+02-08-2021 00:24:31.327 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/js/**'] with []
+02-08-2021 00:24:31.328 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/error/**'] with []
+02-08-2021 00:24:31.328 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/css/**'] with []
+02-08-2021 00:24:31.328 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/fonts/**'] with []
+02-08-2021 00:24:31.328 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/libs/**'] with []
+02-08-2021 00:24:31.329 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/img/**'] with []
+02-08-2021 00:24:31.329 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/h2-console/**'] with []
+02-08-2021 00:24:31.453 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e3b7aed, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ff90ca1, org.springframework.security.web.header.HeaderWriterFilter@46046948, org.springframework.security.web.authentication.logout.LogoutFilter@3f850cb0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6943a1e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f7d8c9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bcd8b7f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aba9368, org.springframework.security.web.session.SessionManagementFilter@3cfc1647, org.springframework.security.web.access.ExceptionTranslationFilter@18311f14, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4076ecbd]
+02-08-2021 00:24:31.816 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:24:32.495 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:24:32.516 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-08-2021 00:24:32.527 [restartedMain] INFO  com.shopping.Application.logStarted - Started Application in 6.248 seconds (JVM running for 8.012)
+02-08-2021 00:24:32.775 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 1062, SQLState: 23000
+02-08-2021 00:24:32.776 [restartedMain] ERROR o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - Duplicate entry 'admin@shopping.com' for key 'user.UK_ob8kqyqqgmefl0aco34akdtpe'
+02-08-2021 00:24:32.818 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+02-08-2021 00:24:32.842 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:822)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:803)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:346)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.shopping.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [user.UK_ob8kqyqqgmefl0aco34akdtpe]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:276)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy100.save(Unknown Source)
+	at com.shopping.service.impl.UserServiceImpl.save(UserServiceImpl.java:42)
+	at com.shopping.MockData.adminAccount(MockData.java:70)
+	at com.shopping.MockData.run(MockData.java:39)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:819)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3297)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3824)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:345)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:93)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 28 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'admin@shopping.com' for key 'user.UK_ob8kqyqqgmefl0aco34akdtpe'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 48 common frames omitted
+02-08-2021 00:24:32.908 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:24:32.911 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:24:32.915 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+02-08-2021 00:24:32.925 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+02-08-2021 00:24:40.548 [restartedMain] INFO  com.shopping.Application.logStarting - Starting Application using Java 11.0.1 on SM-HOSSEINI-10 with PID 14212 (D:\Projects\Shopping\developmentWithThymeleaf\target\classes started by sm_hosseini in D:\Projects\Shopping\developmentWithThymeleaf)
+02-08-2021 00:24:40.551 [restartedMain] INFO  com.shopping.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-08-2021 00:24:40.594 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-08-2021 00:24:40.595 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-08-2021 00:24:41.369 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-08-2021 00:24:41.441 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+02-08-2021 00:24:42.212 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-08-2021 00:24:42.220 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:24:42.221 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-08-2021 00:24:42.221 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02-08-2021 00:24:42.314 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-08-2021 00:24:42.314 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1718 ms
+02-08-2021 00:24:42.629 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-08-2021 00:24:42.674 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+02-08-2021 00:24:42.789 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-08-2021 00:24:42.887 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+02-08-2021 00:24:43.179 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+02-08-2021 00:24:43.192 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-08-2021 00:24:43.975 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-08-2021 00:24:43.985 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:24:44.053 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+02-08-2021 00:24:44.519 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-08-2021 00:24:44.970 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/webjars/**'] with []
+02-08-2021 00:24:44.971 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/js/**'] with []
+02-08-2021 00:24:44.971 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/error/**'] with []
+02-08-2021 00:24:44.971 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/css/**'] with []
+02-08-2021 00:24:44.971 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/fonts/**'] with []
+02-08-2021 00:24:44.972 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/libs/**'] with []
+02-08-2021 00:24:44.972 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/img/**'] with []
+02-08-2021 00:24:44.972 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/h2-console/**'] with []
+02-08-2021 00:24:45.099 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a715436, org.springframework.security.web.context.SecurityContextPersistenceFilter@6bcdedb3, org.springframework.security.web.header.HeaderWriterFilter@e6ae329, org.springframework.security.web.authentication.logout.LogoutFilter@191c9177, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@787edc81, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e801f67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@654e927, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33aa1b19, org.springframework.security.web.session.SessionManagementFilter@45895173, org.springframework.security.web.access.ExceptionTranslationFilter@3698e5ba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40e85b6]
+02-08-2021 00:24:45.458 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:24:46.147 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:24:46.167 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-08-2021 00:24:46.179 [restartedMain] INFO  com.shopping.Application.logStarted - Started Application in 6.042 seconds (JVM running for 7.614)
+02-08-2021 00:24:46.445 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 1062, SQLState: 23000
+02-08-2021 00:24:46.445 [restartedMain] ERROR o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - Duplicate entry 'admin@shopping.com' for key 'user.UK_ob8kqyqqgmefl0aco34akdtpe'
+02-08-2021 00:24:46.486 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+02-08-2021 00:24:46.510 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:822)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:803)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:346)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.shopping.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [user.UK_ob8kqyqqgmefl0aco34akdtpe]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:276)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy100.save(Unknown Source)
+	at com.shopping.service.impl.UserServiceImpl.save(UserServiceImpl.java:42)
+	at com.shopping.MockData.adminAccount(MockData.java:70)
+	at com.shopping.MockData.run(MockData.java:39)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:819)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3297)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3824)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:345)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:93)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 28 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'admin@shopping.com' for key 'user.UK_ob8kqyqqgmefl0aco34akdtpe'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 48 common frames omitted
+02-08-2021 00:24:46.580 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:24:46.584 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:24:46.587 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+02-08-2021 00:24:46.598 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+02-08-2021 00:25:15.980 [restartedMain] INFO  com.shopping.Application.logStarting - Starting Application using Java 11.0.1 on SM-HOSSEINI-10 with PID 20456 (D:\Projects\Shopping\developmentWithThymeleaf\target\classes started by sm_hosseini in D:\Projects\Shopping\developmentWithThymeleaf)
+02-08-2021 00:25:15.984 [restartedMain] INFO  com.shopping.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-08-2021 00:25:16.031 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-08-2021 00:25:16.032 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-08-2021 00:25:16.787 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-08-2021 00:25:16.858 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+02-08-2021 00:25:17.656 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-08-2021 00:25:17.665 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:25:17.666 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-08-2021 00:25:17.666 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02-08-2021 00:25:17.765 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-08-2021 00:25:17.766 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1732 ms
+02-08-2021 00:25:18.108 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-08-2021 00:25:18.156 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+02-08-2021 00:25:18.282 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-08-2021 00:25:18.388 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+02-08-2021 00:25:18.680 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+02-08-2021 00:25:18.694 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-08-2021 00:25:19.400 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-08-2021 00:25:19.409 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:25:19.479 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+02-08-2021 00:25:19.979 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-08-2021 00:25:20.466 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/webjars/**'] with []
+02-08-2021 00:25:20.467 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/js/**'] with []
+02-08-2021 00:25:20.467 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/error/**'] with []
+02-08-2021 00:25:20.467 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/css/**'] with []
+02-08-2021 00:25:20.468 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/fonts/**'] with []
+02-08-2021 00:25:20.468 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/libs/**'] with []
+02-08-2021 00:25:20.468 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/img/**'] with []
+02-08-2021 00:25:20.468 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/h2-console/**'] with []
+02-08-2021 00:25:20.596 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b5daefc, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d82ecb9, org.springframework.security.web.header.HeaderWriterFilter@21ab29d5, org.springframework.security.web.authentication.logout.LogoutFilter@7ca64238, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ead6148, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7791ffe6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2174ec0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e46965a, org.springframework.security.web.session.SessionManagementFilter@158ffb2e, org.springframework.security.web.access.ExceptionTranslationFilter@41c70c69, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51ddb282]
+02-08-2021 00:25:20.968 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:25:21.660 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:25:21.682 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-08-2021 00:25:21.694 [restartedMain] INFO  com.shopping.Application.logStarted - Started Application in 6.093 seconds (JVM running for 7.695)
+02-08-2021 00:25:21.944 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 1062, SQLState: 23000
+02-08-2021 00:25:21.944 [restartedMain] ERROR o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - Duplicate entry 'admin@shopping.com' for key 'user.UK_ob8kqyqqgmefl0aco34akdtpe'
+02-08-2021 00:25:21.973 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+02-08-2021 00:25:21.996 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:822)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:803)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:346)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.shopping.Application.main(Application.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [user.UK_ob8kqyqqgmefl0aco34akdtpe]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:276)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy100.save(Unknown Source)
+	at com.shopping.service.impl.UserServiceImpl.save(UserServiceImpl.java:42)
+	at com.shopping.MockData.adminAccount(MockData.java:70)
+	at com.shopping.MockData.run(MockData.java:39)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:819)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3297)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3824)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:345)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:93)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 28 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'admin@shopping.com' for key 'user.UK_ob8kqyqqgmefl0aco34akdtpe'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 48 common frames omitted
+02-08-2021 00:25:22.064 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:25:22.068 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:25:22.072 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+02-08-2021 00:25:22.082 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+02-08-2021 00:26:48.471 [restartedMain] INFO  com.shopping.Application.logStarting - Starting Application using Java 11.0.1 on SM-HOSSEINI-10 with PID 13776 (D:\Projects\Shopping\developmentWithThymeleaf\target\classes started by sm_hosseini in D:\Projects\Shopping\developmentWithThymeleaf)
+02-08-2021 00:26:48.474 [restartedMain] INFO  com.shopping.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-08-2021 00:26:48.528 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-08-2021 00:26:48.528 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-08-2021 00:26:49.315 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-08-2021 00:26:49.385 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+02-08-2021 00:26:50.165 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-08-2021 00:26:50.173 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:26:50.174 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-08-2021 00:26:50.174 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02-08-2021 00:26:50.269 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-08-2021 00:26:50.270 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1741 ms
+02-08-2021 00:26:50.613 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-08-2021 00:26:50.661 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+02-08-2021 00:26:50.782 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-08-2021 00:26:50.884 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+02-08-2021 00:26:51.191 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+02-08-2021 00:26:51.204 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-08-2021 00:26:51.928 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-08-2021 00:26:51.939 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:26:52.029 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+02-08-2021 00:26:52.545 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-08-2021 00:26:53.007 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/webjars/**'] with []
+02-08-2021 00:26:53.007 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/js/**'] with []
+02-08-2021 00:26:53.008 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/error/**'] with []
+02-08-2021 00:26:53.008 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/css/**'] with []
+02-08-2021 00:26:53.008 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/fonts/**'] with []
+02-08-2021 00:26:53.008 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/libs/**'] with []
+02-08-2021 00:26:53.008 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/img/**'] with []
+02-08-2021 00:26:53.009 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/h2-console/**'] with []
+02-08-2021 00:26:53.135 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d973172, org.springframework.security.web.context.SecurityContextPersistenceFilter@57e794fa, org.springframework.security.web.header.HeaderWriterFilter@77f90e0, org.springframework.security.web.authentication.logout.LogoutFilter@bb7022d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@32a3e593, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a73d224, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e10bedd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3646c9ca, org.springframework.security.web.session.SessionManagementFilter@3fa03ad5, org.springframework.security.web.access.ExceptionTranslationFilter@518c9fbe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39c94ca6]
+02-08-2021 00:26:53.460 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:26:54.206 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:26:54.227 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-08-2021 00:26:54.238 [restartedMain] INFO  com.shopping.Application.logStarted - Started Application in 6.258 seconds (JVM running for 7.622)
+02-08-2021 00:26:55.920 [restartedMain] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1422493119 wrapping com.mysql.cj.jdbc.ConnectionImpl@3b5282d4] read-only
+02-08-2021 00:26:57.522 [restartedMain] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1422493119 wrapping com.mysql.cj.jdbc.ConnectionImpl@3b5282d4]
+02-08-2021 00:27:15.164 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-08-2021 00:27:15.165 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+02-08-2021 00:27:15.167 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+02-08-2021 00:27:15.250 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1510580837 wrapping com.mysql.cj.jdbc.ConnectionImpl@3b5282d4] read-only
+02-08-2021 00:27:15.259 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1510580837 wrapping com.mysql.cj.jdbc.ConnectionImpl@3b5282d4]
+02-08-2021 00:27:15.260 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1510580837 wrapping com.mysql.cj.jdbc.ConnectionImpl@3b5282d4] read-only
+02-08-2021 00:27:15.264 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1510580837 wrapping com.mysql.cj.jdbc.ConnectionImpl@3b5282d4]
+02-08-2021 00:27:24.410 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:27:24.418 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:27:24.423 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+02-08-2021 00:27:24.437 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+02-08-2021 00:27:57.730 [restartedMain] INFO  com.shopping.Application.logStarting - Starting Application using Java 11.0.1 on SM-HOSSEINI-10 with PID 17560 (D:\Projects\Shopping\developmentWithThymeleaf\target\classes started by sm_hosseini in D:\Projects\Shopping\developmentWithThymeleaf)
+02-08-2021 00:27:57.733 [restartedMain] INFO  com.shopping.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-08-2021 00:27:57.781 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-08-2021 00:27:57.782 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-08-2021 00:27:58.549 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-08-2021 00:27:58.619 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+02-08-2021 00:27:59.360 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-08-2021 00:27:59.368 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:27:59.369 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-08-2021 00:27:59.369 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02-08-2021 00:27:59.462 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-08-2021 00:27:59.462 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1679 ms
+02-08-2021 00:27:59.781 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-08-2021 00:27:59.828 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+02-08-2021 00:27:59.945 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-08-2021 00:28:00.048 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+02-08-2021 00:28:00.332 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+02-08-2021 00:28:00.345 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-08-2021 00:28:01.106 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-08-2021 00:28:01.116 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:28:01.188 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+02-08-2021 00:28:01.747 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-08-2021 00:28:02.203 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/webjars/**'] with []
+02-08-2021 00:28:02.204 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/js/**'] with []
+02-08-2021 00:28:02.204 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/error/**'] with []
+02-08-2021 00:28:02.204 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/css/**'] with []
+02-08-2021 00:28:02.205 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/fonts/**'] with []
+02-08-2021 00:28:02.205 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/libs/**'] with []
+02-08-2021 00:28:02.205 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/img/**'] with []
+02-08-2021 00:28:02.205 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/h2-console/**'] with []
+02-08-2021 00:28:02.332 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9a5ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@58e2e88c, org.springframework.security.web.header.HeaderWriterFilter@7a767851, org.springframework.security.web.authentication.logout.LogoutFilter@7f3e5b4a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@280158fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@183cca7b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32a614f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fdcb671, org.springframework.security.web.session.SessionManagementFilter@6f504209, org.springframework.security.web.access.ExceptionTranslationFilter@41c05bd2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f414da]
+02-08-2021 00:28:02.691 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:28:03.373 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:28:03.394 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-08-2021 00:28:03.407 [restartedMain] INFO  com.shopping.Application.logStarted - Started Application in 6.076 seconds (JVM running for 7.753)
+02-08-2021 00:28:06.537 [restartedMain] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@967319515 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6] read-only
+02-08-2021 00:28:06.652 [restartedMain] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@967319515 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6]
+02-08-2021 00:28:12.692 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-08-2021 00:28:12.692 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+02-08-2021 00:28:12.694 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+02-08-2021 00:29:03.328 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s897ms841µs300ns).
+02-08-2021 00:31:37.912 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@523866477 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6] read-only
+02-08-2021 00:31:37.940 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@523866477 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6]
+02-08-2021 00:31:38.127 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1253112454 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6] read-only
+02-08-2021 00:31:38.132 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1253112454 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6]
+02-08-2021 00:31:38.133 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1253112454 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6] read-only
+02-08-2021 00:31:38.136 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1253112454 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6]
+02-08-2021 00:33:46.635 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@809609273 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6] read-only
+02-08-2021 00:33:46.641 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@809609273 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6]
+02-08-2021 00:34:39.168 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1757147971 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6] read-only
+02-08-2021 00:34:39.188 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1757147971 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6]
+02-08-2021 00:34:39.303 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@862672806 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6] read-only
+02-08-2021 00:34:39.308 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@862672806 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6]
+02-08-2021 00:34:39.309 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@862672806 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6] read-only
+02-08-2021 00:34:39.313 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@862672806 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6]
+02-08-2021 00:34:55.459 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1912923154 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6] read-only
+02-08-2021 00:34:55.464 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1912923154 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e7226b6]
+02-08-2021 00:36:41.298 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m1s347ms904µs100ns).
+02-08-2021 00:36:41.431 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:36:41.440 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:36:41.444 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+02-08-2021 00:36:41.457 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+02-08-2021 00:37:15.725 [restartedMain] INFO  com.shopping.Application.logStarting - Starting Application using Java 11.0.1 on SM-HOSSEINI-10 with PID 13280 (D:\Projects\Shopping\developmentWithThymeleaf\target\classes started by sm_hosseini in D:\Projects\Shopping\developmentWithThymeleaf)
+02-08-2021 00:37:15.728 [restartedMain] INFO  com.shopping.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-08-2021 00:37:15.777 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-08-2021 00:37:15.778 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-08-2021 00:37:16.534 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-08-2021 00:37:16.604 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+02-08-2021 00:37:17.395 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-08-2021 00:37:17.404 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:37:17.404 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-08-2021 00:37:17.405 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02-08-2021 00:37:17.507 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-08-2021 00:37:17.507 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1728 ms
+02-08-2021 00:37:17.865 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-08-2021 00:37:17.935 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+02-08-2021 00:37:18.061 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-08-2021 00:37:18.218 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+02-08-2021 00:37:18.550 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+02-08-2021 00:37:18.564 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-08-2021 00:37:29.604 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-08-2021 00:37:29.614 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:37:29.684 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+02-08-2021 00:37:30.270 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-08-2021 00:37:30.921 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/webjars/**'] with []
+02-08-2021 00:37:30.922 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/js/**'] with []
+02-08-2021 00:37:30.922 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/error/**'] with []
+02-08-2021 00:37:30.923 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/css/**'] with []
+02-08-2021 00:37:30.923 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/fonts/**'] with []
+02-08-2021 00:37:30.923 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/libs/**'] with []
+02-08-2021 00:37:30.924 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/img/**'] with []
+02-08-2021 00:37:30.924 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/h2-console/**'] with []
+02-08-2021 00:37:31.057 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68d889a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a2ba0ce, org.springframework.security.web.header.HeaderWriterFilter@182a36de, org.springframework.security.web.authentication.logout.LogoutFilter@67ba8393, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@314044e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@140d00d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@249faa61, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3338123f, org.springframework.security.web.session.SessionManagementFilter@27220686, org.springframework.security.web.access.ExceptionTranslationFilter@28a34908, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2450c560]
+02-08-2021 00:37:31.452 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:37:32.193 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:37:32.215 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-08-2021 00:37:32.227 [restartedMain] INFO  com.shopping.Application.logStarted - Started Application in 16.905 seconds (JVM running for 18.53)
+02-08-2021 00:37:36.187 [restartedMain] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1769075360 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:37:37.557 [restartedMain] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1769075360 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:37:54.080 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-08-2021 00:37:54.081 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+02-08-2021 00:37:54.083 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+02-08-2021 00:38:13.140 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@908892878 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:38:13.184 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@908892878 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:27.754 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1884286545 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:27.760 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1884286545 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:27.942 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1858765623 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:27.950 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1858765623 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:27.951 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1858765623 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:27.955 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1858765623 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:35.178 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1942863826 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:35.187 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1942863826 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:35.189 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1942863826 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:35.191 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1942863826 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:39.441 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@27073586 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:39.445 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@27073586 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:39.446 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@27073586 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:39.450 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@27073586 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:40.831 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1803612736 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:40.836 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1803612736 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:40.837 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1803612736 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:40.839 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1803612736 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:54.172 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1445582736 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:54.176 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1445582736 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:54.177 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1445582736 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:54.182 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1445582736 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:56.623 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@690303655 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:56.626 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@690303655 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:39:56.627 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@690303655 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:39:56.629 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@690303655 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:04.934 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@657960822 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:04.938 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@657960822 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:04.939 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@657960822 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:04.945 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@657960822 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:06.715 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@826538500 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:06.718 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@826538500 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:06.719 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@826538500 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:06.723 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@826538500 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:23.260 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@2021133661 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:23.265 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@2021133661 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:23.266 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@2021133661 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:23.269 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@2021133661 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:25.663 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1745068407 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:25.685 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1745068407 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:25.687 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1745068407 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:25.690 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1745068407 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:48.838 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1805868965 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:48.864 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1805868965 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:48.976 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1031607732 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:48.979 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1031607732 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:40:48.980 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1031607732 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:40:48.998 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1031607732 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:03.446 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1048016130 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:03.450 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1048016130 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:03.558 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@441725434 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:03.562 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@441725434 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:03.563 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@441725434 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:03.567 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@441725434 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:08.355 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@835738118 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:08.360 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@835738118 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:10.095 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1249392843 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:10.098 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1249392843 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:11.376 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1147366896 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:11.380 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1147366896 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:12.892 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@894200402 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:12.896 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@894200402 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:12.897 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@894200402 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:12.900 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@894200402 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:22.630 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@506006414 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:22.633 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@506006414 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:34.241 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@683739052 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:34.246 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@683739052 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:34.354 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1419731082 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:34.357 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1419731082 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:34.358 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1419731082 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:34.360 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1419731082 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:41:36.248 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1930745497 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:41:36.251 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1930745497 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:42:18.269 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1167803525 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:42:18.273 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1167803525 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:42:18.274 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1167803525 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:42:18.277 [http-nio-8080-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1167803525 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:42:24.006 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1504590715 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:42:24.011 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1504590715 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:42:24.012 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1504590715 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:42:24.015 [http-nio-8080-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1504590715 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:13.581 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1943320890 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:13.584 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1943320890 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:13.652 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1587521936 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:13.656 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1587521936 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:13.657 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1587521936 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:13.660 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1587521936 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:24.499 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1613298723 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:24.525 [http-nio-8080-exec-6] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1613298723 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:26.151 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1856323282 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:26.155 [http-nio-8080-exec-3] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1856323282 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:27.980 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@645850741 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:27.984 [http-nio-8080-exec-8] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@645850741 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:30.033 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@387668855 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:30.036 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@387668855 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:30.037 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@387668855 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:30.053 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@387668855 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:41.189 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@899707797 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:41.192 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@899707797 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:41.193 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@899707797 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:41.195 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@899707797 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:41.339 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@910417404 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:41.344 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@910417404 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:41.345 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@910417404 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:41.348 [http-nio-8080-exec-7] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@910417404 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:45.062 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1398934715 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:45.066 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1398934715 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:43:45.067 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1398934715 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e] read-only
+02-08-2021 00:43:45.073 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1398934715 wrapping com.mysql.cj.jdbc.ConnectionImpl@2234912e]
+02-08-2021 00:52:53.556 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:52:53.564 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:52:53.570 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+02-08-2021 00:52:53.580 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+02-08-2021 00:54:15.025 [restartedMain] INFO  com.shopping.Application.logStarting - Starting Application using Java 11.0.1 on SM-HOSSEINI-10 with PID 4876 (D:\Projects\Shopping\developmentWithThymeleaf\target\classes started by sm_hosseini in D:\Projects\Shopping\developmentWithThymeleaf)
+02-08-2021 00:54:15.028 [restartedMain] INFO  com.shopping.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+02-08-2021 00:54:15.067 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-08-2021 00:54:15.067 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-08-2021 00:54:15.751 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-08-2021 00:54:15.815 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+02-08-2021 00:54:16.450 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+02-08-2021 00:54:16.457 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:54:16.458 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+02-08-2021 00:54:16.458 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+02-08-2021 00:54:16.551 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+02-08-2021 00:54:16.552 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1484 ms
+02-08-2021 00:54:16.807 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-08-2021 00:54:16.856 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+02-08-2021 00:54:16.960 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-08-2021 00:54:17.046 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+02-08-2021 00:54:17.314 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+02-08-2021 00:54:17.326 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-08-2021 00:54:26.766 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-08-2021 00:54:26.775 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-08-2021 00:54:26.827 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+02-08-2021 00:54:27.166 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-08-2021 00:54:27.580 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/webjars/**'] with []
+02-08-2021 00:54:27.581 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/js/**'] with []
+02-08-2021 00:54:27.581 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/error/**'] with []
+02-08-2021 00:54:27.582 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/css/**'] with []
+02-08-2021 00:54:27.582 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/fonts/**'] with []
+02-08-2021 00:54:27.582 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/libs/**'] with []
+02-08-2021 00:54:27.582 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/img/**'] with []
+02-08-2021 00:54:27.583 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure Ant [pattern='/h2-console/**'] with []
+02-08-2021 00:54:27.669 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@699ed221, org.springframework.security.web.context.SecurityContextPersistenceFilter@73db18b8, org.springframework.security.web.header.HeaderWriterFilter@42557ae0, org.springframework.security.web.authentication.logout.LogoutFilter@5aedf8fc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@738c8d83, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8cf2902, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61af662c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27522998, org.springframework.security.web.session.SessionManagementFilter@3673bef4, org.springframework.security.web.access.ExceptionTranslationFilter@3e255bbd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4228168]
+02-08-2021 00:54:27.928 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+02-08-2021 00:54:28.439 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+02-08-2021 00:54:28.485 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+02-08-2021 00:54:28.496 [restartedMain] INFO  com.shopping.Application.logStarted - Started Application in 13.846 seconds (JVM running for 15.126)
+02-08-2021 00:54:28.504 [restartedMain] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1693553954 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593] read-only
+02-08-2021 00:54:28.906 [restartedMain] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1693553954 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593]
+02-08-2021 00:54:47.367 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-08-2021 00:54:47.368 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+02-08-2021 00:54:47.369 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+02-08-2021 00:54:47.409 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1878627746 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593] read-only
+02-08-2021 00:54:47.416 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1878627746 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593]
+02-08-2021 00:54:47.416 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1878627746 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593] read-only
+02-08-2021 00:54:47.419 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1878627746 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593]
+02-08-2021 00:54:50.131 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1045066947 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593] read-only
+02-08-2021 00:54:50.138 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1045066947 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593]
+02-08-2021 00:54:50.139 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction - Setting JDBC Connection [HikariProxyConnection@1045066947 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593] read-only
+02-08-2021 00:54:50.140 [http-nio-8080-exec-10] DEBUG o.s.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1045066947 wrapping com.mysql.cj.jdbc.ConnectionImpl@622bf593]

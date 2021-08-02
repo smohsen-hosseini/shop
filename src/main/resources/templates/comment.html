@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/header :: header-css">
+</head>
+
+<body>
+
+<div th:replace="fragments/header :: header"></div>
+
+<div class="container">
+    <div class="row" style="margin-top:20px">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+            <form autocomplete="off" th:object="${newComment}" class="form" method="POST">
+                <fieldset>
+                    <div class="form-group">
+                        <label>id</label>
+                        <input readonly="true" type="text" th:field="*{product.id}" class="form-control input-lg"
+                               title="id"
+                               autofocus="true"/>
+                    </div>
+                    <div class="form-group">
+                        <label th:text="#{product.name}"></label>
+                        <input readonly="true" type="text" th:field="*{product.name}" class="form-control input-lg"
+                               title="name"
+                               autofocus="true"/>
+                    </div>
+                    <div class="form-group">
+                        <label>your comment</label>
+                        <input type="text" th:field="*{comment}" class="form-control input-lg" title="comment"
+                               autofocus="true"/>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label>Rank</label>
+                        <select class="form-control input-lg" th:field="*{ranking}" name="rank">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+
+<!--                    <div>-->
+<!--                        <label>Username</label>-->
+<!--                        <input readonly="true" type="text" th:field="*{user.username}" class="form-control input-lg"-->
+<!--                               title="comment"-->
+<!--                               autofocus="true" th:value="${#httpServletRequest.getRemoteUser().toUpperCase()}"/>-->
+<!--&lt;!&ndash;                        <td><span th:text="${#httpServletRequest.getRemoteUser().toUpperCase()}"> Title </span></td>&ndash;&gt;-->
+
+<!--                    </div>-->
+                    <div>
+                        <input class=" btn btn-outline-dark" type="submit" th:action="@{/comment/add/{id}}" value="Add
+                        Comment"/>
+                    </div>
+                </fieldset>
+            </form>
+
+            <div th:if="${commentList.size()>0}">
+                <table style="width:100%">
+                    <tr>
+                        <th>commentId</th>
+                        <th>Rank</th>
+<!--                        <th>User</th>-->
+                        <th>comment</th>
+                    </tr>
+
+                    <div th:each="comment : ${commentList}">
+                        <tr>
+                            <td class="card-text" th:text="${comment.getId()}"></td>
+                            <span></span>
+                            <td class="card-text" th:text="${comment.getRanking()}"></td>
+                            <span></span>
+<!--                            <td class="card-text" th:text="${comment.getUser()}"></td>-->
+                            <td class="card-text" th:text="${comment.getComment()}"></td>
+                            <span></span>
+                        </tr>
+                    </div>
+
+                </table>
+            </div>
+
+        </div>
+
+        <div th:replace="fragments/footer :: footer"></div>
+
+</body>
+
+</html>

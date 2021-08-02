@@ -1,0 +1,163 @@
+h1 {
+    color: #0000FF;
+    display: inline;
+}
+
+h2 {
+    color: #FF0000;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+
+/*div.container {
+    position: relative;
+    left: 60px;
+}*/
+
+.uploadposition {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 85%;
+}
+
+.navbar-inverse {
+    margin-bottom: 0px !important;
+    position: relative !important;
+}
+
+
+.logoImg {
+    background-size: 70.7%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.submitButton {
+    background-color: #24b54b;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 4px 31px;
+    text-decoration: none;
+}
+
+.submitButton:hover {
+    background-color: #15ad3b;
+}
+
+.submitButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.uploadButton {
+    background-color: #16529c;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #2958b0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 4px 31px;
+    text-decoration: none;
+}
+
+.uploadButton:hover {
+    background-color: #0c458a;
+}
+
+.uploadButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.leftNavbar {
+    width: 10%;
+    float: left;
+}
+
+.navbar .navbar-brand {
+    padding-top: 5px;
+}
+
+.navbar .navbar-brand img {
+    height: 40px;
+    width: 70px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.buttons {
+    position: absolute;
+    right: 0;
+    top: 0;
+}a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px;
+    background: #000;
+    color: #ccc;
+}
+
+
+.sidebar {
+    background: #1a1c1d;
+    color: #787d80;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+    overflow: hidden;}
+
+.hideDown {
+    transform: rotateY(90deg) skewY(10deg);
+}
+
+.hideUp {
+    transform: rotateY(90deg) skewY(-10deg);
+}
+
+.sidebarHeader {
+    padding: 20px 10px;
+    font-weight: 700;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;}
+
+li {
+    padding: 15px 10px;}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.5s;
+}
+
+:hover {
+    color: #ccc;
+}
+
+
