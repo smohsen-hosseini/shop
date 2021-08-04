@@ -1,20 +1,14 @@
 # **Spring Boot - Shop Sample**
-[![Build Status](https://travis-ci.org/syqu22/spring-boot-shop-sample.svg?branch=master)](https://travis-ci.org/syqu22/spring-boot-shop-sample)
-
 
 ## Description
 
-This is my first project using Spring. I wanted to do e-commerce web application to learn Spring. I have used **Spring Boot**, **Spring Security**, **Spring Data JPA** with **H2 database**, for views i have used **Thymeleaf** template and **Bootstrap** CSS framework.
-
-## Screenshots
-
-<img src="src/main/resources/static/images/example1.PNG" height=60% width=95%>
+I wanted to do Shopping application to learn Spring. I have used **Spring Boot**, **Spring Security**, **Spring Data JPA** with **MySQL database**, for views i have used **Thymeleaf** template and **Bootstrap** CSS framework.
 
 ## Installation
 
 You can clone this repository and use it localy:
 ```sh
-$ git clone https://github.com/syqu22/spring-boot-shop-sample.git
+$ git clone https://github.com/smohsen-hosseini/shop.git
 ```
 
 **Using Maven plugin**
